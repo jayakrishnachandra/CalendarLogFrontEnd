@@ -1,0 +1,122 @@
+/* Container for the entire CalendarView */
+.calendar-view {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+/* Calendar styles */
+.react-calendar {
+  margin: 20px auto;
+  max-width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.react-calendar__tile {
+  font-size: 16px;
+}
+
+.react-calendar__tile--active {
+  background-color: #3498db;
+  color: white;
+}
+
+.react-calendar__tile--now {
+  background-color: #e74c3c;
+  color: white;
+}
+
+/* Form container styling */
+.form-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+/* Logs section */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #ecf0f1;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+li p {
+  margin: 5px 0;
+}
+
+button {
+  padding: 6px 12px;
+  background-color: #549ac9;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5e868d;
+}
+
+/* Loading state */
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #95a5a6;
+}
+
+/* Disabled select styling */
+select:disabled {
+  background-color: #f0f0f0;
+  color: #bdc3c7;
+}
