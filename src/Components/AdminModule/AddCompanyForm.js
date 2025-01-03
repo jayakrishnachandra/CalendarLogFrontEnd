@@ -50,7 +50,7 @@ const AddCompanyForm = ({ setCompanies, token }) => {
   const handleSubmitCompany = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('https://calendarlog.onrender.com//addCompany', {
+      const response = await fetch('https://calendarlog.onrender.com/addCompany', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

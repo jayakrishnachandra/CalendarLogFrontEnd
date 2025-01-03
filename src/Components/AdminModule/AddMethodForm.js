@@ -1,4 +1,4 @@
-// src/components/AddMethodForm.js
+
 
 import React, { useState } from 'react';
 
@@ -21,7 +21,7 @@ const AddMethodForm = ({ setMethods, token }) => {
   const handleSubmitMethod = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('https://calendarlog.onrender.com//addCommunicationMethod', {
+      const response = await fetch('https://calendarlog.onrender.com/addCommunicationMethod', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

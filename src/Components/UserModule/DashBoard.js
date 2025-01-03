@@ -12,7 +12,7 @@ const Dashboard = ({ token }) => {
 
   const fetchCompanyAndMethods = async () => {
     try {
-      const response = await fetch('https://calendarlog.onrender.com//company-method-names', {
+      const response = await fetch('https://calendarlog.onrender.com/company-method-names', {
         method: 'GET',
         headers: {
           Authorization: `Bearer ${token}`,
@@ -43,7 +43,7 @@ const Dashboard = ({ token }) => {
   // Fetch logs for a specific company and determine its status
   const fetchLogsForCompany = async (companyName) => {
     try {
-      const response = await fetch(`https://calendarlog.onrender.com//allLogs/${companyName}`, {
+      const response = await fetch(`https://calendarlog.onrender.com/allLogs/${companyName}`, {
         method: 'GET',
         headers: {
           Authorization: `Bearer ${token}`,

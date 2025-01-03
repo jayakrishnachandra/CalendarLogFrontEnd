@@ -31,7 +31,7 @@ const CalendarView = ({ token }) => {
 
     setIsLogsLoading(true);
 
-    fetch('https://calendarlog.onrender.com//allLogs', {
+    fetch('https://calendarlog.onrender.com/allLogs', {
       method: 'GET', // Use GET method to fetch logs
       headers: {
         'Content-Type': 'application/json',
@@ -57,7 +57,7 @@ const CalendarView = ({ token }) => {
       return;
     }
 
-    fetch('https://calendarlog.onrender.com//company-method-names', {
+    fetch('https://calendarlog.onrender.com/company-method-names', {
       method: 'GET',
       headers: {
         Authorization: `Bearer ${token}`,
@@ -102,7 +102,7 @@ const CalendarView = ({ token }) => {
       communicationDate: date.toISOString().split('T')[0], // Ensure the date is formatted correctly
     };
 
-    fetch('https://calendarlog.onrender.com//addCommunicationLog', {
+    fetch('https://calendarlog.onrender.com/addCommunicationLog', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -159,7 +159,7 @@ const CalendarView = ({ token }) => {
     );
 
     // Update the log on the server
-    fetch(`https://calendarlog.onrender.com//markCompleted/${logId}`, {
+    fetch(`https://calendarlog.onrender.com/markCompleted/${logId}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',

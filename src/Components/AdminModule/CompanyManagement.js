@@ -17,7 +17,7 @@ const CompanyManagement = ({ token }) => {
     try {
       setCompanies([]);  // Clear companies
       setMethods([]);    // Clear methods
-      const response = await fetch('https://calendarlog.onrender.com//company-method-names', {
+      const response = await fetch('https://calendarlog.onrender.com/company-method-names', {
         method: 'GET',
         headers: {
           'Authorization': `Bearer ${token}`,

@@ -9,7 +9,7 @@ const MethodList = ({ methods, setMethods, token }) => {
   const fetchMethodData = async (MethodName) => {
     try {
       const encodedName = encodeURIComponent(MethodName);
-      const response = await fetch(`https://calendarlog.onrender.com//getCommunicationMethod/${encodedName}`, {
+      const response = await fetch(`https://calendarlog.onrender.com/getCommunicationMethod/${encodedName}`, {
         method: 'GET',
         headers: {
           'Authorization': `Bearer ${token}`,

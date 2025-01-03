@@ -9,7 +9,7 @@ const SignIn = ({ onSignIn, toggleRegister }) => {
     e.preventDefault();
     const user = { email, password };
 
-    fetch('https://calendarlog.onrender.com//login', {
+    fetch('https://calendarlog.onrender.com/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

@@ -15,7 +15,7 @@ const Register = ({ onSignIn, toggleRegister }) => {
     };
 
     try {
-      const response = await fetch('https://calendarlog.onrender.com//register', {
+      const response = await fetch('https://calendarlog.onrender.com/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
