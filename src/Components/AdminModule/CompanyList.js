@@ -9,7 +9,7 @@ const CompanyList = ({ companies, setCompanies, token }) => {
   const fetchCompanyData = async (companyName) => {
     try {
       const encodedName = encodeURIComponent(companyName);
-      const response = await fetch(`https://calendarlog.onrender.com//getCompany/${encodedName}`, {
+      const response = await fetch(`https://calendarlog.onrender.com/getCompany/${encodedName}`, {
         method: 'GET',
         headers: {
           'Authorization': `Bearer ${token}`,
@@ -33,7 +33,7 @@ const CompanyList = ({ companies, setCompanies, token }) => {
     if (confirmDelete) {
       try {
         const encodedName = encodeURIComponent(companyName);
-        const response = await fetch(`https://calendarlog.onrender.com//deleteCompany/${encodedName}`, {
+        const response = await fetch(`https://calendarlog.onrender.com/deleteCompany/${encodedName}`, {
           method: 'DELETE',
           headers: {
             'Authorization': `Bearer ${token}`,
