@@ -1,86 +1,76 @@
-Calendar Log Frontend
-Overview
-The Calendar Log Frontend is a React-based web application designed to help users log and manage calendar events. The app provides a dashboard for administrators and users to interact with the system, including features like adding companies, viewing logs, and managing methods of communication.
+# Calendar Log Frontend
 
-Project Structure
-bash
-Copy code
+## Overview
+
+Calendar Log Frontend is a React-based application that allows users to manage and view calendar events. It includes features for both users and administrators to interact with company data and calendar events.
+
+## Features
+
+- **User Authentication**: Users can register and sign in.
+- **Admin Dashboard**: Admins can add companies and manage communication methods.
+- **User Dashboard**: Users can view their calendar and company logs.
+- **Responsive UI**: Built with Bootstrap for a mobile-friendly interface.
+- **Calendar View**: Uses `react-calendar` to display calendar events.
+- **API Integration**: Fetch API is used for communication with the backend.
+
+## Project Structure
+
+```plaintext
 src/
-│
 ├── Authentication/
 │   ├── Register.js
 │   └── SignIn.js
-│
 ├── Components/
 │   ├── AdminModule/
 │   │   ├── AddCompanyForm.js
 │   │   ├── CompanyList.js
-│   │   ├── MethodList.js
-│   │   └── HoverableItem.js
+│   │   └── MethodList.js
 │   ├── UserModule/
-│   │   ├── CalendarView.css
 │   │   ├── CalendarView.js
 │   │   ├── CompanyLogs.js
-│   │   ├── DashBoard.js
-│   │   ├── HoverableItem.css
-│   │   └── HoverableItem.js
-│
+│   │   └── DashBoard.js
 ├── App.css
 ├── App.js
 └── App.test.js
-Directories and Files
-Authentication/: Contains components for user authentication.
+```
 
-Register.js: Handles the user registration process.
-SignIn.js: Handles the user sign-in process.
-Components/: Contains the app's main components.
 
-AdminModule/: Features for the admin panel.
-AddCompanyForm.js: Form to add a new company.
-CompanyList.js: Displays a list of companies.
-MethodList.js: Lists communication methods.
-HoverableItem.js: Used for interactive hoverable items.
-UserModule/: Features for the user panel.
-CalendarView.js: Displays the calendar view for users.
-CompanyLogs.js: Displays logs related to companies.
-DashBoard.js: Dashboard component for users.
-HoverableItem.js and HoverableItem.css: Used for hoverable interactive elements.
-App.js: Main entry point for the React application.
+## Installation
 
-App.css: Global styles for the app.
 
-App.test.js: Unit tests for the app components.
+To get started with the project locally, follow these steps:
 
-Features
-User Authentication: Allows users to register and sign in to access the application.
-Admin Dashboard: Admins can add companies, manage communication methods, and view the company list.
-User Dashboard: Users can view the calendar, log events, and access company logs.
-Hoverable Items: Interactive UI elements that show additional details on hover.
-Getting Started
-Prerequisites
-Ensure you have the following installed:
+**1. Clone the repository**
+Open your terminal and run the following command to clone the repository:
 
-Node.js (v14 or higher)
-npm
-Installation
-Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/jayakrishnachandra/CalendarLogFrontEnd.git
-Navigate to the project directory:
 
-bash
-Copy code
+
+**2. Navigate to the project directory**
+After cloning, go into the project directory:
+
 cd CalendarLogFrontEnd
-Install dependencies:
 
-bash
-Copy code
+
+**3. Install dependencies**
+Install the necessary dependencies using npm:
+
 npm install
-Start the development server:
 
-bash
-Copy code
-npm start
-The app will be running on http://localhost:3000/.
+
+This will install all the required libraries specified in package.json.
+
+**4. Start the application**
+Run the following command to start the development server:
+
+
+**npm start**
+
+
+The application will be available at http://localhost:3000.
+
+##Usage##
+User Authentication: Register or sign in using the provided forms.
+Admin Dashboard: Admins can add companies and manage communication methods.
+User Dashboard: View the calendar and company logs.
