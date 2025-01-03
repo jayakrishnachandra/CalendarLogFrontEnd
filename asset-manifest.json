@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.df674348.css",
-    "main.js": "/react-gh-pages/static/js/main.0cd65e0d.js",
-    "static/js/488.e87965e4.chunk.js": "/react-gh-pages/static/js/488.e87965e4.chunk.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.df674348.css.map": "/react-gh-pages/static/css/main.df674348.css.map",
-    "main.0cd65e0d.js.map": "/react-gh-pages/static/js/main.0cd65e0d.js.map",
-    "488.e87965e4.chunk.js.map": "/react-gh-pages/static/js/488.e87965e4.chunk.js.map"
+    "main.css": "/CalendarLogFrontEnd/static/css/main.df674348.css",
+    "main.js": "/CalendarLogFrontEnd/static/js/main.f067bc40.js",
+    "static/js/488.e87965e4.chunk.js": "/CalendarLogFrontEnd/static/js/488.e87965e4.chunk.js",
+    "index.html": "/CalendarLogFrontEnd/index.html",
+    "main.df674348.css.map": "/CalendarLogFrontEnd/static/css/main.df674348.css.map",
+    "main.f067bc40.js.map": "/CalendarLogFrontEnd/static/js/main.f067bc40.js.map",
+    "488.e87965e4.chunk.js.map": "/CalendarLogFrontEnd/static/js/488.e87965e4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df674348.css",
-    "static/js/main.0cd65e0d.js"
+    "static/js/main.f067bc40.js"
   ]
 }
